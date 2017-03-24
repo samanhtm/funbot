@@ -1,5 +1,4 @@
--- Devloper @Bot_Api
--- Channel @NewsBotApi
+-- Devloper @saman_htm
 local triggers = {
 	'^/(bc) (.*)$',
 	'^/(id)$',
@@ -40,5 +39,4 @@ return {
 	action = action,
 	triggers = triggers,
 }
--- Devloper @Bot_Api
--- Channel @NewsBotApi
+-- Devloper @saman_htm
