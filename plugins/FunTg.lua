@@ -386,10 +386,10 @@ local function sp()
                 local keyboard = {}
           keyboard.inline_keyboard = {
 		    {
-			  {text = "Mr.AmirHossein", callback_data = "/Amir"}
+			  {text = "saman", callback_data = "/saman"}
 		    },
 			{
-			  {text = "Mehdi", callback_data = "/mehdi"}
+			  {text = "saman_htm", callback_data = "/saman_htm"}
 			},
 --  		{
 --			  {text = "ارتباط مستقیم", callback_data = "/chat"}
@@ -405,16 +405,16 @@ local function about()
           keyboard.inline_keyboard = {
             {
 
-              {text = "سازنده ربات", url = "https://t.me/Bot_Api"},{text = "همین حالا 5 ستاره دهید", url = "https://t.me/storebot?start=FallGirRobot"},
+              {text = "سازنده ربات", url = "https://t.me/saman_htm"},{text = "سازنده‌ربات", url = "https://t.me/saman_htm"},
             },
             {
-              {text = "کمک کننده", url = "https://t.me/HEXTOR"},{text = "Api نویس سایت", url = "https://t.me/Bots_sudo"},
+              {text = "کمک کننده", url = "https://t.me/saman_htm110"},{text = "Api نویس سایت", url = "https://t.me/saman_htm"},
             },
             {
-              {text = "کانال ربات", url = "https://t.me/BeyondTeam"},{text = "کانال اخبار ربات", url = "https://t.me/NewsBotApi"}
+              {text = "سازنده", url = "https://t.me/saman_htm"},{text = " اخبار ربات", url = "https://t.me/saman_htm"}
             },
             {
-              {text = "اسپانسر تیم", url = "https://t.me/StoreVps",}
+              {text = "اسپانسر تیم", url = "https://t.me/saman_htm110",}
             },
             {
               {text = "بازگشت🔙", callback_data = "/kb"},
@@ -426,13 +426,13 @@ local function AmirH()
                 local keyboard = {}
           keyboard.inline_keyboard = {
 			{
-		      {text = "ارسال پیام", url = "https://t.me/Bot_Api"},
+		      {text = "ارسال پیام", url = "https://t.me/saman_htm"},
 			},
 			{
-			  {text = "ریپورتم", url = "https://t.me/MrAmirAloneBot"},
+			  {text = "ریپورتم", url = "https://t.me/saman_htm_reportbot"},
 			},
 			{
-			  {text = "کانال شخصی", url = "https://t.me/MrAmirAlone"},
+			  {text = "راه‌ارتباطی", url = "https://t.me/saman_htm"},
 		  },
 		    {
 			  {text = "بازگشت🔙", callback_data="/sp"},
@@ -444,13 +444,13 @@ local function mehdi()
        local keyboard = {}
           keyboard.inline_keyboard = {
 		    {
-			  {text = "ارسال پیام", url = "https://t.me/NeroDev"},
+			  {text = "ارسال پیام", url = "https://t.me/saman_htm"},
 			},
 			{
-			  {text = "ریپورتم", url = "https://t.me/NeroDevBot"},
+			  {text = "ریپورتم", url = "https://t.me/saman_htm_reportbot"},
 			},
 			{
-			  {text = "کانال", url = "https://t.me/NeroTeam"},
+			  {text = "سازنده", url = "https://t.me/saman_htm"},
 			},
             {
               {text = "بازگشت🔙", callback_data="/sp"},
