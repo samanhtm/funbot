@@ -1,5 +1,3 @@
--- Devloper @Bot_Api
--- Channel @NewsBotApi and @BeyondTeam
 local triggers = {
   '^/(start)$',
   '^/(mod)$',
@@ -637,7 +635,7 @@ local action = function(msg, matches)
         end
 		if matches[1] == 'about' then
 		local About = [[نسخه ربات "6.5"
-          تشکر ميکنم از دوست خوبم [رضا](https://t.me/HEXTOR) و [پارسا](https://t.me/prs1378)
+          تشکر ميکنم از دوست خوبم [سامان](https://t.me/saman_htm) و [سامان](https://t.me/saman_htm)
           زبان برنامه نويسي شده ربات : لوا]]
 		local keyboard = about()
 		api.editMessageText(msg.chat.id, msg.message_id, About, keyboard, true)
@@ -679,7 +677,6 @@ if is_admin(msg) and matches[1] == 'stats' then
       mem = '*Members Count* : `'..i..'`\n'
     end
   end
-
   local text = '#Stats\n*Blocked Users* : `'..blocked..'`\n*Messages* : `'..msgs..'`\n*Starts* : `'..starts..'`\n'..mem
   local dbinfo = client:info()
   text = text..'\n\n#Clinet Info\n'
@@ -731,15 +728,15 @@ end
          local keyboard = sp()
           api.editMessageText(msg.chat.id, msg.message_id, 'یکی از اشخاص زیر را انتخاب کنید : ', keyboard, true)
         end
-   				if matches[1] == 'Amir' then
-		 local AHossein = 'نام : امیرحسین \nبا استفاده از اینلاین های زیر متوانید با امیرحسین در ارتباط باشید'
-         local keyboard = AmirH()
-          api.editMessageText(msg.chat.id, msg.message_id, AHossein, keyboard, true)
+   				if matches[1] == 'saman' then
+		 local saman = 'نام : سامان \nبا استفاده از اینلاین های زیر متوانید با سامان در ارتباط باشید'
+         local keyboard = saman()
+          api.editMessageText(msg.chat.id, msg.message_id, saman_htm, keyboard, true)
         end
-        if matches[1] == 'mehdi' then
-         local keyboard = mehdi()
-		 local MEHDI = 'نام : مهدی\nبا استفاده از اینلاین های زیر میتوانید  با مهدی در ارتباط باشید'
-        api.editMessageText(msg.chat.id, msg.message_id, MEHDI, keyboard, true)
+        if matches[1] == 'saman' then
+         local keyboard = saman()
+		 local saman = 'نام : سامان\nبا استفاده از اینلاین های زیر میتوانید  با سامان در ارتباط باشید'
+        api.editMessageText(msg.chat.id, msg.message_id, saman_htm, keyboard, true)
        end
 		
    
@@ -751,5 +748,3 @@ end
       triggers = triggers,
 
     }
--- Devloper @Bot_Api
--- Channel @NewsBotApi
